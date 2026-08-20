@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>कक्षा 8 हिंदी | वसंत भाग 3 | राजस्थान बोर्ड</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, "Noto Sans Devanagari", sans-serif;
+      background: #f4f7fb;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4f46e5, #7c3aed);
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .search-box {
+      width: 100%;
+      padding: 14px;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      outline: none;
+    }
+
+    .search-box:focus {
+      border-color: #6366f1;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .buttons button {
+      border: none;
+      padding: 11px 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      background: #e5e7eb;
+      font-size: 14px;
+    }
+
+    .buttons button.active {
+      background: #4f46e5;
+      color: white;
+    }
+
+    .chapter {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .chapter h2 {
+      color: #4338ca;
+      margin-bottom: 10px;
+    }
+
+    .chapter-number {
+      display: inline-block;
+      background: #ede9fe;
+      color: #5b21b6;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    .question {
+      margin-top: 15px;
+      padding: 14px;
+      border-top: 1px solid #eee;
+    }
+
+    .question strong {
+      display: block;
+      color: #111827;
+      margin-bottom: 7px;
+    }
+
+    .answer {
+      color: #374151;
+    }
+
+    .important {
+      background: #fff8db;
+      border-left: 5px solid #f59e0b;
+      border-radius: 8px;
+    }
+
+    .important-title {
+      color: #b45309;
+      font-weight: bold;
+    }
+
+    .info {
+      background: #eef2ff;
+      padding: 15px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111827;
+      color: white;
+      margin-top: 30px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 23px;
+      }
+
+      .container {
+        padding: 12px;
+      }
+
+      .chapter {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>📚 कक्षा 8 हिंदी</h1>
+  <p>वसंत भाग 3 • राजस्थान बोर्ड</p>
+  <p>⭐ महत्वपूर्ण प्रश्न एवं प्रश्न–उत्तर</p>
+</header>
+
+<div class="container">
+
+  <input
+    type="text"
+    id="search"
+    class="search-box"
+    placeholder="🔎 अध्याय या प्रश्न खोजें..."
+    onkeyup="searchQuestions()"
+  >
+
+  <div class="buttons">
+    <button class="active" onclick="showAll()">📚 सभी अध्याय</button>
+    <button onclick="showImportant()">⭐ केवल महत्वपूर्ण प्रश्न</button>
+  </div>
+
+  <div class="info">
+    <b>📌 तैयारी टिप:</b>
+    पहले पूरे प्रश्न–उत्तर पढ़ें। उसके बाद ⭐ महत्वपूर्ण प्रश्नों को दोहराएँ।
+    परीक्षा में प्रश्नों का शब्दांकन अलग हो सकता है।
+  </div>
+
+  <!-- CHAPTER 1 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 1</span>
+
+    <h2>लाख की चूड़ियाँ</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: ‘लाख की चूड़ियाँ’ पाठ का मुख्य भाव क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: इस पाठ में पारंपरिक कारीगरों के जीवन,
+        उनके हुनर और बदलते समय के कारण उनके काम पर पड़ने वाले
+        प्रभाव को प्रस्तुत किया गया है। पाठ हमें श्रम और
+        पारंपरिक कला का सम्मान करने की सीख देता है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: पारंपरिक कारीगरों के सामने कौन-कौन सी कठिनाइयाँ आती हैं?</strong>
+
+      <p class="answer">
+        उत्तर: मशीनों से बने सामान की बढ़ती उपलब्धता,
+        बदलती बाजार व्यवस्था और पारंपरिक वस्तुओं की कम माँग
+        के कारण कारीगरों के काम पर प्रभाव पड़ता है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: पाठ से हमें क्या सीख मिलती है?</strong>
+
+      <p class="answer">
+        उत्तर: हमें मेहनत करने वाले लोगों और उनके हुनर का
+        सम्मान करना चाहिए तथा पारंपरिक कला को बचाने का प्रयास करना चाहिए।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 2 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 2</span>
+
+    <h2>बस की यात्रा</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: ‘बस की यात्रा’ पाठ में हास्य-व्यंग्य कैसे उत्पन्न होता है?</strong>
+
+      <p class="answer">
+        उत्तर: लेखक ने बस की खराब हालत, यात्रा के दौरान
+        उत्पन्न होने वाली आशंकाओं और यात्रियों की प्रतिक्रियाओं
+        को रोचक ढंग से प्रस्तुत किया है। इन्हीं परिस्थितियों
+        से हास्य और व्यंग्य उत्पन्न होता है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: लेखक को बस देखकर चिंता क्यों हुई?</strong>
+
+      <p class="answer">
+        उत्तर: बस बहुत पुरानी और जर्जर दिखाई देती थी।
+        इसलिए लेखक को उसकी सुरक्षा और यात्रा को लेकर चिंता हुई।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: पाठ की भाषा की विशेषता क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: भाषा सरल, रोचक और हास्य-व्यंग्य से भरपूर है।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 3 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 3</span>
+
+    <h2>दीवानों की हस्ती</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: ‘दीवानों की हस्ती’ कविता का मुख्य संदेश क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: कविता जीवन में स्वतंत्रता, उत्साह, मस्ती और
+        निरंतर आगे बढ़ते रहने की भावना को महत्व देती है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कविता में ‘दीवाने’ किस भावना का प्रतीक हैं?</strong>
+
+      <p class="answer">
+        उत्तर: वे स्वतंत्र, मस्त और उत्साही लोगों के प्रतीक हैं,
+        जो जीवन को खुले मन से जीते हैं।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कविता में यात्रा का क्या महत्व है?</strong>
+
+      <p class="answer">
+        उत्तर: यात्रा जीवन के निरंतर आगे बढ़ने और नए अनुभव प्राप्त
+        करने का प्रतीक है।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 4 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 4</span>
+
+    <h2>भगवान के डाकिए</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: ‘भगवान के डाकिए’ किसे कहा गया है?</strong>
+
+      <p class="answer">
+        उत्तर: कविता में प्रकृति के उन माध्यमों को भगवान के
+        डाकिए के समान माना गया है जो एक स्थान से दूसरे स्थान
+        तक संदेश पहुँचाते हैं।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कविता में प्रकृति और मनुष्य का संबंध कैसे दिखाया गया है?</strong>
+
+      <p class="answer">
+        उत्तर: प्रकृति मनुष्य को जोड़ने वाली शक्ति के रूप में
+        प्रस्तुत हुई है। वह सीमाओं से परे जाकर जीवन में संदेश और
+        आशा पहुँचाती है।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 5 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 5</span>
+
+    <h2>क्या निराश हुआ जाए</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: लेखक निराश न होने की बात क्यों करता है?</strong>
+
+      <p class="answer">
+        उत्तर: समाज में बुराइयों के साथ-साथ बहुत से अच्छे,
+        ईमानदार और मानवतावादी लोग भी हैं। इसलिए कुछ बुरी घटनाओं
+        के कारण पूरे समाज से निराश नहीं होना चाहिए।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: पाठ हमें समाज को किस दृष्टि से देखने की प्रेरणा देता है?</strong>
+
+      <p class="answer">
+        उत्तर: हमें समाज की कमियों को समझते हुए उसकी अच्छाइयों
+        और सकारात्मक प्रयासों को भी देखना चाहिए।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 6 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 6</span>
+
+    <h2>यह सबसे कठिन समय नहीं</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: कविता का मुख्य संदेश क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: कठिन परिस्थितियों के बावजूद जीवन में आशा और
+        आगे बढ़ने की संभावना बनी रहती है। कठिन समय हमेशा नहीं रहता।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कविता में आशा की भावना कैसे व्यक्त हुई है?</strong>
+
+      <p class="answer">
+        उत्तर: कवि जीवन की छोटी-छोटी सकारात्मक घटनाओं के माध्यम
+        से बताता है कि उम्मीद अभी समाप्त नहीं हुई है।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 7 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 7</span>
+
+    <h2>कबीर की साखियाँ</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: कबीर की साखियों का मुख्य उद्देश्य क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: कबीर की साखियाँ मनुष्य को सच्चाई, विनम्रता,
+        आत्मचिंतन और अच्छे आचरण का महत्व समझाती हैं।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कबीर बाहरी आडंबर की अपेक्षा किसे महत्व देते हैं?</strong>
+
+      <p class="answer">
+        उत्तर: कबीर सच्चे मन, अच्छे कर्म, आत्मज्ञान और
+        मानवीय व्यवहार को अधिक महत्व देते हैं।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कबीर की भाषा की विशेषता लिखिए।</strong>
+
+      <p class="answer">
+        उत्तर: उनकी भाषा सरल, प्रभावशाली और लोकजीवन से जुड़ी है।
+        वे कम शब्दों में गहरी बात कहते हैं।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 8 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 8</span>
+
+    <h2>सुदामा चरित</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: सुदामा और कृष्ण की मित्रता की प्रमुख विशेषता क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: उनकी मित्रता प्रेम, समानता, अपनापन और
+        निस्वार्थ भाव पर आधारित है। धन और सामाजिक स्थिति का
+        अंतर उनकी मित्रता को प्रभावित नहीं करता।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: सुदामा की आर्थिक स्थिति कैसी थी?</strong>
+
+      <p class="answer">
+        उत्तर: सुदामा बहुत साधारण और अभावपूर्ण जीवन जी रहे थे,
+        फिर भी वे स्वाभिमानी और संतोषी थे।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कृष्ण ने सुदामा के साथ कैसा व्यवहार किया?</strong>
+
+      <p class="answer">
+        उत्तर: कृष्ण ने सुदामा का प्रेम और सम्मान से स्वागत किया।
+        उन्होंने धन-दौलत के भेद को मित्रता में महत्व नहीं दिया।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 9 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 9</span>
+
+    <h2>जहाँ पहिया है</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: ‘जहाँ पहिया है’ में पहिया किसका प्रतीक है?</strong>
+
+      <p class="answer">
+        उत्तर: पहिया गतिशीलता, आत्मनिर्भरता और सामाजिक परिवर्तन
+        का प्रतीक है। साइकिल ने विशेष रूप से महिलाओं के आवागमन
+        और स्वतंत्रता को बढ़ाने में महत्वपूर्ण भूमिका निभाई।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: साइकिल ने महिलाओं के जीवन में क्या बदलाव लाया?</strong>
+
+      <p class="answer">
+        उत्तर: साइकिल से आवागमन आसान हुआ, समय बचा और महिलाओं को
+        शिक्षा, काम तथा अन्य गतिविधियों में भाग लेने के अधिक अवसर मिले।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 10 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 10</span>
+
+    <h2>अकबरी लोटा</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: ‘अकबरी लोटा’ की प्रमुख विशेषता क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: यह एक रोचक हास्य-व्यंग्यात्मक कहानी है जिसमें
+        परिस्थितियों, संवादों और घटनाओं के माध्यम से मनोरंजन
+        किया गया है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कहानी में हास्य कैसे उत्पन्न होता है?</strong>
+
+      <p class="answer">
+        उत्तर: पात्रों की परिस्थितियाँ, उनकी बातें, गलतफहमियाँ
+        और घटनाओं का अप्रत्याशित रूप हास्य पैदा करता है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कहानी से क्या सीख मिलती है?</strong>
+
+      <p class="answer">
+        उत्तर: किसी बात को बिना जाँचे सच नहीं मानना चाहिए।
+        हमें विवेक और समझदारी से निर्णय लेना चाहिए।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 11 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 11</span>
+
+    <h2>सूरदास के पद</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: सूरदास के पदों में किस भाव की प्रमुखता है?</strong>
+
+      <p class="answer">
+        उत्तर: सूरदास के पदों में कृष्ण के प्रति प्रेम,
+        भक्ति और वात्सल्य भाव की प्रमुखता है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: सूरदास ने बाल-कृष्ण का चित्रण किस प्रकार किया है?</strong>
+
+      <p class="answer">
+        उत्तर: बाल-कृष्ण को चंचल, मनमोहक और बाल-सुलभ
+        शरारतों से भरे हुए रूप में प्रस्तुत किया गया है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: सूरदास की काव्य-भाषा की विशेषता क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: उनकी भाषा भावपूर्ण, सरल और मधुर है।
+        उसमें ब्रजभाषा की सुंदरता दिखाई देती है।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 12 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 12</span>
+
+    <h2>पानी की कहानी</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: ‘पानी की कहानी’ पाठ का मुख्य उद्देश्य क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: पाठ पानी के महत्व और जीवन में उसकी उपयोगिता
+        के प्रति जागरूक करता है तथा जल संरक्षण की प्रेरणा देता है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: जल हमारे लिए क्यों आवश्यक है?</strong>
+
+      <p class="answer">
+        उत्तर: जल मनुष्य, पशु और पौधों सहित सभी जीवों के
+        जीवन के लिए आवश्यक है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: जल संरक्षण क्यों जरूरी है?</strong>
+
+      <p class="answer">
+        उत्तर: स्वच्छ जल सीमित मात्रा में उपलब्ध है।
+        बढ़ती आवश्यकता और जल प्रदूषण के कारण जल संरक्षण आवश्यक है।
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- CHAPTER 13 -->
+
+  <section class="chapter">
+
+    <span class="chapter-number">अध्याय 13</span>
+
+    <h2>बाज और साँप</h2>
+
+    <div class="question important">
+      <strong>⭐ प्रश्न: ‘बाज और साँप’ कहानी का मुख्य संदेश क्या है?</strong>
+
+      <p class="answer">
+        उत्तर: कहानी स्वतंत्रता, साहस और जीवन के प्रति
+        सकारात्मक दृष्टिकोण का महत्व बताती है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: बाज और साँप के जीवन-दृष्टिकोण में क्या अंतर है?</strong>
+
+      <p class="answer">
+        उत्तर: बाज स्वतंत्रता और संघर्षपूर्ण जीवन को महत्व देता है,
+        जबकि साँप सुरक्षित स्थान में रहकर जोखिम से बचना चाहता है।
+      </p>
+    </div>
+
+    <div class="question">
+      <strong>प्रश्न: कहानी से हमें क्या प्रेरणा मिलती है?</strong>
+
+      <p class="answer">
+        उत्तर: हमें साहस, स्वतंत्रता और अपने जीवन के उद्देश्य
+        के प्रति सकारात्मक दृष्टिकोण रखना चाहिए।
+      </p>
+    </div>
+
+  </section>
+
+</div>
+
+<footer>
+  <p>📖 कक्षा 8 हिंदी • वसंत भाग 3</p>
+  <p>राजस्थान बोर्ड अध्ययन सामग्री</p>
+</footer>
+
+
+<script>
+
+function showAll() {
+
+  let chapters = document.querySelectorAll(".chapter");
+  let questions = document.querySelectorAll(".question");
+
+  chapters.forEach(function(chapter) {
+    chapter.classList.remove("hidden");
+  });
+
+  questions.forEach(function(question) {
+    question.classList.remove("hidden");
+  });
+
+}
+
+
+function showImportant() {
+
+  let chapters = document.querySelectorAll(".chapter");
+
+  chapters.forEach(function(chapter) {
+
+    let questions = chapter.querySelectorAll(".question");
+
+    let importantFound = false;
+
+    questions.forEach(function(question) {
+
+      if (question.classList.contains("important")) {
+        question.classList.remove("hidden");
+        importantFound = true;
+      } else {
+        question.classList.add("hidden");
+      }
+
+    });
+
+    if (importantFound) {
+      chapter.classList.remove("hidden");
+    } else {
+      chapter.classList.add("hidden");
+    }
+
+  });
+
+}
+
+
+function searchQuestions() {
+
+  let searchText =
+    document.getElementById("search").value.toLowerCase();
+
+  let chapters =
+    document.querySelectorAll(".chapter");
+
+  chapters.forEach(function(chapter) {
+
+    let chapterText =
+      chapter.innerText.toLowerCase();
+
+    if (chapterText.includes(searchText)) {
+      chapter.classList.remove("hidden");
+    } else {
+      chapter.classList.add("hidden");
+    }
+
+  });
+
+}
+
+</script>
+
+</body>
+</html>
